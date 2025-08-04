@@ -9,10 +9,12 @@
   source-code-url: https://gitlab.gnome.org/GNOME/aisleriot
   anti-cheat: no
   elf:
-    amd64: yes
-    x86: yes
-    armv7: yes
-    aarch64: yes
+    gcompat: no
+    arch:
+      amd64: yes
+      x86: yes
+      armv7: yes
+      aarch64: yes
   wayland:
     native-support: yes
     easy: yes
@@ -31,6 +33,41 @@
     update-url: https://gitlab.gnome.org/GNOME/aisleriot/-/releases
     last-update: 2025-01-28
   notes: ~
+- name: Anarch
+  short-name: anarch
+  category: fps
+  steam-id: ~
+  gog-id: ~
+  humblebundle-id: ~
+  url: https://git.coom.tech/drummyfish/Anarch
+  support-url: ~
+  source-code-url: https://gitlab.com/drummyfish/anarch
+  anti-cheat: no
+  elf:
+    gcompat: no
+    arch:
+      amd64: yes
+      x86: yes
+      armv7: yes
+      aarch64: yes
+  wayland:
+    native-support: yes
+    easy: yes
+  libc:
+    glibc: yes
+    musl: yes
+    uclibc: ~
+    uclibc-ng: ~
+    bionic: ~
+    dietlibc: ~
+    pdclib: ~
+  open-source:
+    code: yes
+    content: yes
+  maintenance:
+    update-url: https://gitlab.com/drummyfish/anarch/-/tags
+    last-update: 2020-11-21
+  notes: ~
 - name: Counter-Strike 2
   short-name: cs2
   category: fps
@@ -42,10 +79,12 @@
   source-code-url: ~
   anti-cheat: no
   elf:
-    amd64: yes
-    x86: no
-    armv7: no
-    aarch64: no
+    gcompat: ~
+    arch:
+      amd64: yes
+      x86: no
+      armv7: no
+      aarch64: no
   wayland:
     native-support: yes
     easy: yes
@@ -77,10 +116,12 @@
   source-code-url: ~
   anti-cheat: no
   elf:
-    amd64: no
-    x86: yes
-    armv7: no
-    aarch64: no
+    gcompat: yes
+    arch:
+      amd64: no
+      x86: yes
+      armv7: no
+      aarch64: no
   wayland:
     native-support: no
     easy: ~
