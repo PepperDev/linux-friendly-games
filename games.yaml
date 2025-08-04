@@ -1,3 +1,36 @@
+- name: Klondike
+  short-name: aisleriot
+  category: card
+  steam-id: ~
+  gog-id: ~
+  humblebundle-id: ~
+  url: ~
+  support-url: ~
+  source-code-url: https://gitlab.gnome.org/GNOME/aisleriot
+  anti-cheat: no
+  elf:
+    amd64: yes
+    x86: yes
+    armv7: yes
+    aarch64: yes
+  wayland:
+    native-support: yes
+    easy: yes
+  libc:
+    glibc: yes
+    musl: yes
+    uclibc: ~
+    uclibc-ng: ~
+    bionic: ~
+    dietlibc: ~
+    pdclib: ~
+  open-source:
+    code: yes
+    content: yes
+  maintenance:
+    update-url: https://gitlab.gnome.org/GNOME/aisleriot/-/releases
+    last-update: 2025-01-28
+  notes: ~
 - name: Counter-Strike 2
   short-name: cs2
   category: fps
@@ -35,7 +68,7 @@
     - It's extremely hard to test on other libc because Steam itself don't work on other libc.
 - name: HuniePop
   short-name: huniepop
-  category: date-sim
+  category: simulator
   steam-id: 339800
   gog-id: 1443428641
   humblebundle-id: huniepop
