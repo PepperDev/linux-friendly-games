@@ -9,23 +9,23 @@
   source-code-url: https://gitlab.gnome.org/GNOME/aisleriot
   anti-cheat: no
   elf:
-    gcompat: no
-    arch:
-      amd64: yes
-      x86: yes
-      armv7: yes
-      aarch64: yes
+    amd64: yes
+    x86: yes
+    armv7: yes
+    aarch64: yes
   wayland:
     native-support: yes
     easy: yes
   libc:
-    glibc: yes
-    musl: yes
-    uclibc: ~
-    uclibc-ng: ~
-    bionic: ~
-    dietlibc: ~
-    pdclib: ~
+    gcompat: no
+    flavour:
+      glibc: yes
+      musl: yes
+      uclibc: ~
+      uclibc-ng: ~
+      bionic: ~
+      dietlibc: ~
+      pdclib: ~
   open-source:
     code: yes
     content: yes
@@ -44,23 +44,23 @@
   source-code-url: https://gitlab.com/drummyfish/anarch
   anti-cheat: no
   elf:
-    gcompat: no
-    arch:
-      amd64: yes
-      x86: yes
-      armv7: yes
-      aarch64: yes
+    amd64: yes
+    x86: yes
+    armv7: yes
+    aarch64: yes
   wayland:
     native-support: yes
     easy: yes
   libc:
-    glibc: yes
-    musl: yes
-    uclibc: ~
-    uclibc-ng: ~
-    bionic: ~
-    dietlibc: ~
-    pdclib: ~
+    gcompat: no
+    flavour:
+      glibc: yes
+      musl: yes
+      uclibc: ~
+      uclibc-ng: ~
+      bionic: ~
+      dietlibc: ~
+      pdclib: ~
   open-source:
     code: yes
     content: yes
@@ -79,23 +79,23 @@
   source-code-url: ~
   anti-cheat: no
   elf:
-    gcompat: ~
-    arch:
-      amd64: yes
-      x86: no
-      armv7: no
-      aarch64: no
+    amd64: yes
+    x86: no
+    armv7: no
+    aarch64: no
   wayland:
     native-support: yes
     easy: yes
   libc:
-    glibc: yes
-    musl: no
-    uclibc: no
-    uclibc-ng: no
-    bionic: no
-    dietlibc: no
-    pdclib: no
+    gcompat: ~
+    flavour:
+      glibc: yes
+      musl: no
+      uclibc: no
+      uclibc-ng: no
+      bionic: no
+      dietlibc: no
+      pdclib: no
   open-source:
     code: no
     content: no
@@ -116,23 +116,23 @@
   source-code-url: ~
   anti-cheat: no
   elf:
-    gcompat: yes
-    arch:
-      amd64: no
-      x86: yes
-      armv7: no
-      aarch64: no
+    amd64: no
+    x86: yes
+    armv7: no
+    aarch64: no
   wayland:
     native-support: no
     easy: ~
   libc:
-    glibc: yes
-    musl: no
-    uclibc: no
-    uclibc-ng: no
-    bionic: no
-    dietlibc: no
-    pdclib: no
+    gcompat: yes
+    flavour:
+      glibc: yes
+      musl: no
+      uclibc: no
+      uclibc-ng: no
+      bionic: no
+      dietlibc: no
+      pdclib: no
   open-source:
     code: no
     content: no
