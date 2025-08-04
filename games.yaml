@@ -1,0 +1,69 @@
+- name: Counter-Strike 2
+  short-name: cs2
+  category: fps
+  steam-id: 730
+  gog-id: ~
+  humblebundle-id: ~
+  url: https://www.counter-strike.net/
+  support-url: https://github.com/ValveSoftware/csgo-osx-linux/issues
+  source-code-url: ~
+  anti-cheat: no
+  elf:
+    amd64: yes
+    x86: no
+    armv7: no
+    aarch64: no
+  wayland:
+    native-support: yes
+    easy: yes
+  libc:
+    glibc: yes
+    musl: no
+    uclibc: no
+    uclibc-ng: no
+    bionic: no
+    dietlibc: no
+    pdclib: no
+  open-source:
+    code: no
+    content: no
+  maintenance:
+    update-url: https://www.counter-strike.net/news/updates
+    last-update: 2025-08-01
+  notes: |
+    - Recently it started working natively on Wayland without requiring XWayland, but the steam overlay UI is still broken, and you still needs XWayland to open the Steam client.
+    - It's extremely hard to test on other libc because Steam itself don't work on other libc.
+- name: HuniePop
+  short-name: huniepop
+  category: date-sim
+  steam-id: 339800
+  gog-id: 1443428641
+  humblebundle-id: huniepop
+  url: https://huniepop.com/
+  support-url: ~
+  source-code-url: ~
+  anti-cheat: no
+  elf:
+    amd64: no
+    x86: yes
+    armv7: no
+    aarch64: no
+  wayland:
+    native-support: no
+    easy: ~
+  libc:
+    glibc: yes
+    musl: no
+    uclibc: no
+    uclibc-ng: no
+    bionic: no
+    dietlibc: no
+    pdclib: no
+  open-source:
+    code: no
+    content: no
+  maintenance:
+    update-url: ~
+    last-update: ~
+  notes: |
+    - It installs with gcompat and the launcher don't complain about missing symbols, but also don't play due to segmentation fault.
