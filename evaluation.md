@@ -61,6 +61,7 @@ The category should be one of the following list:
 * FPS
 * MMORPG
 * Simulator
+* Strategy
 * TPS
 
 If more than one category could fit please choose the one most relevant for the game, if no category fits please open a [discussion](discussion/new) for possible inclusion.

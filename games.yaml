@@ -68,6 +68,41 @@
     update-url: https://gitlab.com/drummyfish/anarch/-/tags
     last-update: 2020-11-21
   notes: ~
+- name: Chocolate Doom
+  short-name: chocolate-doom
+  category: fps
+  steam-id: ~
+  gog-id: ~
+  humblebundle-id: ~
+  url: https://www.chocolate-doom.org
+  support-url: ~
+  source-code-url: https://github.com/chocolate-doom/chocolate-doom
+  anti-cheat: no
+  elf:
+    amd64: yes
+    x86: yes
+    armv7: yes
+    aarch64: yes
+  wayland:
+    native-support: yes
+    easy: yes
+  libc:
+    gcompat: no
+    flavour:
+      glibc: yes
+      musl: yes
+      uclibc: ~
+      uclibc-ng: ~
+      bionic: ~
+      dietlibc: ~
+      pdclib: ~
+  open-source:
+    code: yes
+    content: no
+  maintenance:
+    update-url: https://github.com/chocolate-doom/chocolate-doom/releases
+    last-update: 2024-08-01
+  notes: ~
 - name: Counter-Strike 2
   short-name: cs2
   category: fps
@@ -105,6 +140,41 @@
   notes: |
     - Recently it started working natively on Wayland without requiring XWayland, but the steam overlay UI is still broken, and you still needs XWayland to open the Steam client.
     - It's extremely hard to test on other libc because Steam itself don't work on other libc.
+- name: GZDoom
+  short-name: gzdoom
+  category: fps
+  steam-id: ~
+  gog-id: ~
+  humblebundle-id: ~
+  url: https://www.zdoom.org
+  support-url: ~
+  source-code-url: https://github.com/ZDoom/gzdoom
+  anti-cheat: no
+  elf:
+    amd64: yes
+    x86: no
+    armv7: no
+    aarch64: yes
+  wayland:
+    native-support: yes
+    easy: yes
+  libc:
+    gcompat: no
+    flavour:
+      glibc: yes
+      musl: yes
+      uclibc: ~
+      uclibc-ng: ~
+      bionic: ~
+      dietlibc: ~
+      pdclib: ~
+  open-source:
+    code: yes
+    content: no
+  maintenance:
+    update-url: https://github.com/ZDoom/gzdoom/releases
+    last-update: 2025-05-03
+  notes: ~
 - name: HuniePop
   short-name: huniepop
   category: simulator
@@ -141,3 +211,38 @@
     last-update: ~
   notes: |
     - It installs with gcompat and the launcher don't complain about missing symbols, but also don't play due to segmentation fault.
+- name: Julius
+  short-name: julius
+  category: strategy
+  steam-id: ~
+  gog-id: ~
+  humblebundle-id: ~
+  url: ~
+  support-url: ~
+  source-code-url: https://github.com/bvschaik/julius
+  anti-cheat: no
+  elf:
+    amd64: yes
+    x86: ~
+    armv7: ~
+    aarch64: ~
+  wayland:
+    native-support: yes
+    easy: yes
+  libc:
+    gcompat: no
+    flavour:
+      glibc: yes
+      musl: ~
+      uclibc: ~
+      uclibc-ng: ~
+      bionic: ~
+      dietlibc: ~
+      pdclib: ~
+  open-source:
+    code: yes
+    content: no
+  maintenance:
+    update-url: https://github.com/bvschaik/julius/releases
+    last-update: 2025-07-31
+  notes: ~
